@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("kapt")
 }
 
 android {
@@ -63,6 +64,12 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.webkit)
+    implementation(libs.androidx.gridlayout)
+    implementation(libs.room.runtime)
+    kapt(libs.room.compiler) // Use 'kapt' for annotation processing
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
+
 
 
 

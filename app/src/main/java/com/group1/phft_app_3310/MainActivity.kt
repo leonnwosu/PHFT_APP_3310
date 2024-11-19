@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         val signUpButton: Button = findViewById(R.id.btnSignUp)
         signUpButton.setOnClickListener {
             // Navigate to SignUpActivity when SignUp button is clicked
-            val intent = Intent(this, sign_Up::class.java)
+            val intent = Intent(this, home_screen::class.java)
             startActivity(intent)
         }
 
