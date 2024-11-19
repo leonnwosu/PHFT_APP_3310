@@ -1,19 +1,14 @@
 package com.group1.phft_app_3310
 import android.content.Intent
 import android.widget.Button
-import android.webkit.WebSettings
-import android.webkit.WebView
-import android.webkit.WebViewClient
-import androidx.appcompat.app.AppCompatActivity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import com.group1.phft_app_3310.ui.theme.PHFT_APP_3310Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main) // Links to the new XML layout
+        setContentView(R.layout.startup_page) // Links to the new XML layout
 
 
         val signUpButton: Button = findViewById(R.id.btnSignUp)
