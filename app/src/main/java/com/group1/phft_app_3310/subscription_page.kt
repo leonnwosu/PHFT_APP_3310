@@ -1,6 +1,7 @@
 package com.group1.phft_app_3310
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +18,15 @@ class subscription_page : AppCompatActivity() {
             insets
         }
     }
+
+    fun onMonthlyPlanClick(view : View){
+
+    }
+
+    fun onAnnualPlanClick(view : View){
+
+
+    }
+
+
 }

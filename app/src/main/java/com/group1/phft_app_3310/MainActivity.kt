@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         val login_btn: Button = findViewById(R.id.btnLogin)
         login_btn.setOnClickListener {
             // Navigate to LoginActivity when Login button is clicked
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, subscription_page::class.java)
             startActivity(intent)
         }
 
